@@ -1,0 +1,81 @@
+* { margin: 0px; padding: 0px; }
+
+a { outline: none; }
+img { border: none; }
+td { vertical-align: top; }
+ul { list-style: none; }
+
+#print * { color: black !important; }
+
+.debug { border: 1px solid red !important; }
+.w100 { width: 100% !important; }
+.h100 { height: 100% !important; }
+.vtop { vertical-align: top !important; }
+.vmiddle { vertical-align: middle !important; }
+.vbottom { vertical-align: bottom !important; }
+.hleft { text-align: left !important; }
+.hcenter { text-align: center !important; }
+.hright { text-align: right !important; }
+.hand { cursor: pointer !important; }
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+.clear1 { clear: both; height: 1px; font-size: 1px; }
+
+.p10 { padding: 10px; }
+.p20 { padding: 20px; }
+
+.text ul, .text ol  { padding: 0px 0px 15px 0px; margin: 0px; }
+.text ul li { margin: 0px 0px 0px 10px; padding: 0px 0px 0px 20px; background: url(../img/bullet.gif) no-repeat 0px 7px; }
+.text ol li { margin: 0px 0px 0px 30px; padding: 0px 0px 0px 0px; }
+.text { line-height: 22px; }
+.text p { margin-bottom: 15px; }
+.text img { margin: 5px 0px; }
+
+#popup_container {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	min-width: 300px; /* Dialog will be no smaller than this */
+	max-width: 960px; /* Dialog will wrap after this width */
+	background: #FFF;
+	border: solid 3px #33685c;
+	color: #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#popup_title {
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+	text-indent: 20px;
+	line-height: 1.75em;
+	color: #fff;
+	text-shadow: 1px 1px #333;
+	background: #3e7669 top repeat-x;
+	border: solid 1px #FFF;
+	border-bottom: solid 1px #01494e;
+	cursor: default;
+	padding: 0em;
+	margin: 0em;
+}
+
+#popup_panel2 { height: 1px; position: relative; }
+#popup_close { position: absolute; top: -29px; right: 15px; cursor: pointer; }
+
+#popup_content {
+	padding: 15px;
+	margin: 0em;
+}
+
+#popup_message {}
+
+#popup_panel {
+	text-align: center;
+	margin: 1em 0em 0em 1em;
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}

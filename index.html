@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css" />
+	<link href='//fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+	<script src="js/jquery-1.10.2.js"></script>
+	<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	
+	<script type="text/javascript" src="js/lightbox.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>	
+		<meta name="verify-paysera" content="655d8885a6231314a6eb8c9dc7073102">
+		</head>
+	<body>
+		<div class="jumbotron vertical-center">
+			<div class="container" id="container">
+			  <div id="drop-panel" ondrop="dropHandler(event)" ondragover="event.preventDefault()">
+			  </div>
+
+        <div class="canvas" id="canvas">
+					<br />
+			<form style="display: none" id="upload-form" method="post" action="reminimas/upload" enctype="multipart/form-data">
+				<input type="hidden" name="page_id" value="2" />
+				<div style="padding: 100px;">
+					<input id="upload" type="file" name="image" />
+					<br />
+									</div>
+			</form>		
+			<div style="height: 480px">
+				<div class="space2" style="overflow: hidden; float: left">
+					<div class="space" style="/*display: none;*/">
+						<div class="border-height"></div>
+						<div class="mirror c" style="border-bottom: 1px solid #ddd;position: relative; z-index: 100;">
+							<div class="emptyborder"></div>
+							<div class="krastas-horizontal picture-width l"><img id="mirror-top" class="mirror-top image-width image-height" style="position: absolute; bottom: 0" src="photos/r_vegeta-chapitre-62.jpeg" /></div>
+							<div class="emptyborder"></div>
+						</div>
+						<div class="mirror krastas-vertical picture-height" style="border-right: 1px solid #ddd;position: relative; z-index: 100;"><img id="mirror-left" class="mirror-left image-width image-height" style="position: absolute; right: 0" src="photos/r_vegeta-chapitre-62.jpeg" /></div>
+						<div class="picture" align="center"><img class="image-width image-height" id="image" src="photos/r_vegeta-chapitre-62.jpeg?1634225895" /></div>
+						<div class="mirror krastas-vertical picture-height" style="border-left: 1px solid #ddd;position: relative; z-index: 100;"><img id="mirror-right" class="mirror-right image-width image-height" style="position: absolute; left: 0" src="photos/r_vegeta-chapitre-62.jpeg" /></div>
+						<div class="clear"></div>
+						<div class="mirror c" style="border-top: 1px solid #ddd;position: relative; z-index: 100;">
+							<div class="emptyborder"></div>
+							<div class="krastas-horizontal picture-width l"><img id="mirror-bottom" class="mirror-bottom image-width image-height" style="position: absolute; top: 0" src="photos/r_vegeta-chapitre-62.jpeg" /></div>
+							<div class="emptyborder"></div>
+						</div>
+
+						<div class="border-height"></div>
+						
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div id="slider"></div>
+		</div>				
+</div>
+</div>
+</div>
+
+
+<script type="text/javascript" src="js/service.js"></script>
+</body>
+</html>
